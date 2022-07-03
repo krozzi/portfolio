@@ -104,6 +104,12 @@ export default function Home({posts}) {
                             <li className="tech-block">MC Forge 1.8.9/1.12</li>
                             <li className="tech-block">MCP 1.8.9/1.12/1.15.1</li>
                             <li className="tech-block">ASM</li>
+                            <li className="tech-block">PyCord</li>
+                            <li className="tech-block">DiscordPY</li>
+                            <li className="tech-block">JavaCord</li>
+                            <li className="tech-block">Discord4J</li>
+                            <li className="tech-block">JDA</li>
+                            <li className="tech-block">MineFlayer</li>
 
                           </ul>
                         </div>
