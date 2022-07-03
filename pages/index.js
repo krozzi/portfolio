@@ -53,7 +53,7 @@ export default function Home({posts}) {
                   </div>
 
                   <div className="text-lg pl-8 lg:pl-0 lg:text-xl font-regular font-spage lg:pb-24 pb-16 px-6 lg:px-0  lg:pr-8">
-                  I&apos;m a self-taught programmer with some experience in both frontend and backend development. By no means am I a &ldquo;pro&rdquo;, but I am pretty decent. I&apos;m only a highschool student, so there&apos;s still so much left to learn. I love playing video games, so if you want to play together, hit me up!
+                  I&apos;m a self-taught programmer with some experience in both frontend and backend development. By no means am I a &ldquo;pro&rdquo;, but I am pretty decent. I&apos;m only a highschool student, so there&apos;s still so much left to learn. I love playing video games, so if you wanna play, let me know!
                   </div>
                 </div>
                 
