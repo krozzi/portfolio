@@ -1,16 +1,14 @@
-import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Footer() {
 
     return (
-
-
     <footer className="footer footer-center p-10 bg-base-100 text-base-content rounded">
           <div className="grid grid-flow-col gap-4">
-            <Link href="/#aboutme"><a className="link link-hover">About me</a> </Link>
-            <Link href="/#tech"><a className="link link-hover">Techstack</a> </Link>
-            <Link href="/blog"><a className="link link-hover">Blog</a> </Link>
-            <Link href="/#contact"><a className="link link-hover">Contact</a></Link>
+            <Link href="/#aboutme">About me</Link>
+            <Link href="/#tech">Techstack</Link>
+            <Link href="/blog">Blog</Link>
+            <Link href="/#contact">Contact</Link>
           </div> 
           <div>
             <div className="grid grid-flow-col gap-4">
