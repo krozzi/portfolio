@@ -28,14 +28,17 @@ export default function Home({posts}) {
                     </p>
 
 
-                    <h1 className="text-7xl lg:text-9xl font-extrabold font-pop text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-400">
+                    <h1 className="mb-2 font-pop text-7xl text-gray-100 lg:text-9xl  font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-400">
+
                         <span className="relative">
-                            <span className="h-20 pt-2 pr-1 overflow-x-hidden whitespace-nowrap text-brand-accent leading-3">
-                              ddozzi
-                            </span>
-                            <span className={`${styles.cursor} inline-block`}></span>
+                          <span className="h-20 pt-2 overflow-x-hidden whitespace-nowrap text-brand-accent">
+                            ddozzi
+                          </span>
+                          <span
+                            className={`${styles.cursor} absolute -bottom-0 left-0 -top-1 inline-block bg-base-200 w-full animate-type will-change`}
+                          ></span>
                         </span>
-                    </h1>
+                      </h1>
 
                     <p className="py-8 font-spage text-xl">
                         programmer • gamer • student

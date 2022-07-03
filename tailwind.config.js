@@ -12,6 +12,20 @@ module.exports = {
         "spage": ["'Space Grotesk'", ...defaultTheme.fontFamily.sans],
         "pop": ["Poppins", ...defaultTheme.fontFamily.sans],
       },
+      animation: {
+        type: 'type 2.7s ease-out .8s infinite alternate both',
+      },
+      keyframes: {
+        type: {
+          '0%': { transform: 'translateX(0ch)'},
+          '8.3%, 16.6%': { transform: 'translateX(1ch)' }, // d 
+          '24.9%, 33.2%': { transform: 'translateX(2ch)' }, // d
+          '41.5%, 49.8%': { transform: 'translateX(3ch)' }, // o
+          '58.5%, 66.4%': { transform: 'translateX(3.8ch)' }, // z 
+          '74.7%, 83%': { transform: 'translateX(4.6ch)'}, // z
+          '91.7%, 100%': { transform: 'translateX(5ch)'},
+        },
+      },
     }
   },
   daisyui: {
