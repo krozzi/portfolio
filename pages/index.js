@@ -31,7 +31,7 @@ export default function Home({posts}) {
   hi, I'm <br class="block md:hidden"/>
   <span class="relative">
     <span class="pt-2 overflow-x-hidden whitespace-nowrap text-brand-accent">
-      vanntile <span class="text-3xl md:text-5xl">👋</span>
+      ddozzi<span class="text-3xl md:text-5xl">👋</span>
     </span>
     <span class="after:content-[''] [font-family:monospace] after:block after:absolute after:w-2 after:h-full
 after:dark:bg-gray-100 after:bg-gray-900 after:animate-cursor absolute left-0 inline-block w-full bg-white
