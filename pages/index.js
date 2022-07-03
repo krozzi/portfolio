@@ -47,7 +47,7 @@ export default function Home({posts}) {
           <div>
               <section id="aboutme">
 
-                <div className="bg-base-100 text-left pt-16 lg:pt-24 lg:pl-24 lg:text-left">
+                <div className="scroll-smooth bg-base-100 text-left pt-16 lg:pt-24 lg:pl-24 lg:text-left">
                   <div className="text-2xl lg:text-4xl pl-8 lg:pl-0 font-semibold font-pop lg:pb-4 pb-4 primary-gradient">
                     ./about/me
                   </div>
@@ -61,7 +61,7 @@ export default function Home({posts}) {
 
 
               <section id="tech">
-                  <div className="bg-base-200 text-left pt-16 lg:pt-24 lg:pl-24 lg:text-left">
+                  <div className="scroll-smooth bg-base-200 text-left pt-16 lg:pt-24 lg:pl-24 lg:text-left">
                     <div className="text-2xl lg:text-4xl font-semibold font-pop pl-8 lg:pl-0 lg:pb-4 pb-4 primary-gradient">
                       ./about/tech
                     </div>
