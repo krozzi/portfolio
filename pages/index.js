@@ -27,8 +27,18 @@ export default function Home({posts}) {
                         hey, i&apos;m
                     </p>
 
-
-                    <h1 className="mb-2 font-pop text-7xl text-gray-100 lg:text-9xl  font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-400">
+                    <h1 class="mb-2 font-mono text-4xl dark:text-gray-100 md:text-6xl overflow-hidden">
+  hi, I'm <br class="block md:hidden"/>
+  <span class="relative">
+    <span class="pt-2 overflow-x-hidden whitespace-nowrap text-brand-accent">
+      vanntile <span class="text-3xl md:text-5xl">👋</span>
+    </span>
+    <span class="after:content-[''] [font-family:monospace] after:block after:absolute after:w-2 after:h-full
+after:dark:bg-gray-100 after:bg-gray-900 after:animate-cursor absolute left-0 inline-block w-full bg-white
+dark:bg-gray-900 -bottom-0 -top-1 animate-type will-change-transform"></span>
+  </span>
+</h1>
+                    {/* <h1 className="mb-2 font-pop text-7xl text-gray-100 lg:text-9xl  font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-400">
 
                         <span className="relative">
                           <span className="h-20 pt-2 overflow-x-hidden whitespace-nowrap text-brand-accent">
@@ -38,7 +48,7 @@ export default function Home({posts}) {
                             className={`${styles.cursor} absolute -bottom-0 left-0 -top-1 inline-block bg-base-200 w-full animate-type will-change`}
                           ></span>
                         </span>
-                      </h1>
+                      </h1> */}
 
                     <p className="py-8 font-spage text-xl">
                         programmer • gamer • student
