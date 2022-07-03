@@ -28,7 +28,7 @@ export default function Home({posts}) {
                     </p>
 
                     <h1 className="mb-2 font-mono text-4xl dark:text-gray-100 md:text-6xl overflow-hidden">
-  hi, I'm <br className="block md:hidden"/>
+  hi, Im <br className="block md:hidden"/>
   <span className="relative">
     <span className="pt-2 overflow-x-hidden whitespace-nowrap text-brand-accent">
       ddozzi<span className="text-3xl md:text-5xl">👋</span>
