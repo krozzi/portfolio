@@ -27,13 +27,13 @@ export default function Home({posts}) {
                         hey, i&apos;m
                     </p>
 
-                    <h1 class="mb-2 font-mono text-4xl dark:text-gray-100 md:text-6xl overflow-hidden">
-  hi, I'm <br class="block md:hidden"/>
-  <span class="relative">
-    <span class="pt-2 overflow-x-hidden whitespace-nowrap text-brand-accent">
-      ddozzi<span class="text-3xl md:text-5xl">👋</span>
+                    <h1 className="mb-2 font-mono text-4xl dark:text-gray-100 md:text-6xl overflow-hidden">
+  hi, I'm <br className="block md:hidden"/>
+  <span className="relative">
+    <span className="pt-2 overflow-x-hidden whitespace-nowrap text-brand-accent">
+      ddozzi<span className="text-3xl md:text-5xl">👋</span>
     </span>
-    <span class="after:content-[''] [font-family:monospace] after:block after:absolute after:w-2 after:h-full
+    <span className="after:content-[''] [font-family:monospace] after:block after:absolute after:w-2 after:h-full
 after:dark:bg-gray-100 after:bg-gray-900 after:animate-cursor absolute left-0 inline-block w-full bg-white
 dark:bg-gray-900 -bottom-0 -top-1 animate-type will-change-transform"></span>
   </span>
