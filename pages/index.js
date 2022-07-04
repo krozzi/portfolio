@@ -185,7 +185,7 @@ export default function Home({posts}) {
                         />
                     ))}
                     <div className="font-regular font-spage text-xl">
-                ...alternatively, <div className="btn btn-primary btn-sm font-pop"><Link href="/blog">view all blog posts</Link></div>
+                ...alternatively, <div className="btn btn-outline border-blue-500 btn-sm font-pop text-blue-400"><Link href="/blog">view all blog posts</Link></div>
                 </div>
                 </div>
                 
