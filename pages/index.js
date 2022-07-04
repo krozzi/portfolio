@@ -179,7 +179,7 @@ export default function Home({posts}) {
                         <BlogPost
                         key={post.slug}
                         title={post.data.title}
-                        date={post.data.date}
+                        date={post.data.fullDate}
                         description={post.data.description}
                         slug={post.slug}
                         />
