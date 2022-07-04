@@ -70,13 +70,13 @@ export default function Home({posts}) {
                             Languages
                           </div>
                           <ul className="flex flex-wrap font-spage gap-2">
-
                             <li className="tech-block">Python 3</li>
                             <li className="tech-block">Java</li>
                             <li className="tech-block">C#</li>
                             <li className="tech-block">JavaScript</li>
                             <li className="tech-block">TypeScript</li>
-                            
+                            <li className="tech-block">Kotlin</li>
+                            <li className="tech-block">R</li>
                           </ul>
                         </div>
 
