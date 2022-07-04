@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import getPosts from "../../helpers/getPosts";
 import BlogPost from "../../components/BlogPost";
-import { DateTime } from 'Luxon';
+import { DateTime } from 'luxon';
 
 export default function Home({posts}) {
     return (

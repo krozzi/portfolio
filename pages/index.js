@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from '../public/css/Cursor.module.css';
 import BlogPost from "../components/BlogPost";
 import getPosts from "../helpers/getPosts";
-import { DateTime } from 'Luxon';
+import { DateTime } from 'luxon';
 import Link from 'next/link';
 
 export default function Home({posts}) {
