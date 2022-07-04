@@ -22,7 +22,7 @@ export default function Header() {
             <li><Link href="https://ddozzi.gitbook.io/mixin-tutorial/how-to-make-a-mixin-client/">Mixin Client</Link></li>
             </ul>
           </li>
-          <li><Link href="/#contact">Contact</Link></li>
+          {/* <li><Link href="/#contact">Contact</Link></li> */}
         </ul>
       </div>
       <Link href="/"><a  className="btn btn-ghost normal-case text-2xl font-pop text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-400">ddozzi</a></Link>
@@ -41,7 +41,7 @@ export default function Header() {
             <li><Link href="https://ddozzi.gitbook.io/mixin-tutorial/how-to-make-a-mixin-client/">Mixin Client</Link></li>
           </ul>
         </li>
-        <li><Link href="/#contact">Contact</Link></li>
+        {/* <li><Link href="/#contact">Contact</Link></li> */}
         
       </ul>
     </div>

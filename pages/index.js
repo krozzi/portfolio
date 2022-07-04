@@ -166,33 +166,41 @@ export default function Home({posts}) {
             </div>
 
             <section>
-
-            <div className="bg-base-100 text-left pt-16 lg:pt-24 lg:pl-24 lg:text-left">
-                    <div className="text-2xl lg:text-4xl font-semibold font-pop pl-8 lg:pl-0 lg:pb-4 pb-4 primary-gradient">
-                      ./about/blog
-                    </div>
-                    <div className="text-lg lg:text-xl font-regular font-spage px-6 lg:px-0 pl-8">
-                      Latest posts from a blog i update every 10 years.
-                    </div>
-                    <div className="pr-12 lg:pb-24 pb-16 pl-8 lg:pl-0">
-                      {posts.map((post) => (
-                        <BlogPost
-                        key={post.slug}
-                        title={post.data.title}
-                        date={post.data.fullDate}
-                        description={post.data.description}
-                        slug={post.slug}
-                        />
-                    ))}
-                    <div className="font-regular font-spage text-xl">
-                ...alternatively, <div className="btn btn-outline border-blue-500 btn-sm font-pop text-blue-400"><Link href="/blog">view all blog posts</Link></div>
-                </div>
-                </div>
-                
-                
-            </div>
-
+              <div className="bg-base-100 text-left pt-16 lg:pt-24 lg:pl-24 lg:text-left">
+                      <div className="text-2xl lg:text-4xl font-semibold font-pop pl-8 lg:pl-0 lg:pb-4 pb-4 primary-gradient">
+                        ./about/blog
+                      </div>
+                      <div className="text-lg lg:text-xl font-regular font-spage px-6 lg:px-0 pl-8">
+                        Latest posts from a blog i update every 10 years.
+                      </div>
+                      <div className="pr-12 lg:pb-24 pb-16 pl-8 lg:pl-0">
+                        {posts.map((post) => (
+                          <BlogPost
+                          key={post.slug}
+                          title={post.data.title}
+                          date={post.data.fullDate}
+                          description={post.data.description}
+                          slug={post.slug}
+                          />
+                      ))}
+                      <div className="font-regular font-spage text-xl">
+                  ...alternatively, <div className="btn btn-outline border-blue-500 btn-sm font-pop text-blue-400"><Link href="/blog">view all blog posts</Link></div>
+                  </div>
+                  </div> 
+              </div>
             </section>
+
+            {/* <section id="contact">
+
+                <div className="bg-base-200 h-screen">
+
+
+
+
+                </div>
+
+
+            </section> */}
             
         </main>
 
