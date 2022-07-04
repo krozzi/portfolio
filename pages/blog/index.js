@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import getPosts from "../../helpers/getPosts";
 import BlogPost from "../../components/BlogPost";
+import { DateTime } from 'Luxon';
 
 export default function Home({posts}) {
     return (
@@ -16,7 +17,7 @@ export default function Home({posts}) {
                </div>
 
                 <div className="px-10 lg:px-60">
-                {posts.map((post) => (
+                    {posts.map((post) => (
                         <BlogPost
                         key={post.slug}
                         title={post.data.title}
@@ -27,18 +28,19 @@ export default function Home({posts}) {
                     ))}
                 </div>
                
-
-                
             </main>
-            
         </div>
         
     );
 }
 
 export const getStaticProps = () => {
-    const posts = getPosts();
-  
+    const posts = getPosts().sort((a, b) => {
+        const beforeDate = DateTime.fromFormat(a.data.date, 'm-d-yyyy')
+        const afterDate = DateTime.fromFormat(b.data.date, 'm-d-yyyy')
+        return afterDate - beforeDate
+      })
+      
     return {
       props: {
         posts,

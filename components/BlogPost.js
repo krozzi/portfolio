@@ -7,7 +7,7 @@ function PostCard({title, date, description, slug }) {
             <div className="font-semibold text-xl font-pop">{title}</div>
             <div className="font-regular text-lg italic pb-3 font-spage">{description}</div>
             <Link href="blog/[slug]" as={`blog/${slug}`}>
-                <button className="btn btn-primary btn-sm">read more</button>
+                <button className="btn btn-secondary btn-sm font-pop">read more</button>
             </Link>
         </div>
   );

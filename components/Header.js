@@ -19,10 +19,10 @@ export default function Header() {
               <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
             </a>
             <ul className="p-2 bg-base-100">
-              <li><Link href="/blog">MC Mods</Link></li>
+            <li><Link href="https://ddozzi.gitbook.io/mixin-tutorial/how-to-make-a-mixin-client/">Mixin Client</Link></li>
             </ul>
           </li>
-          <li><Link href="https://ddozzi.gitbook.io/mixin-tutorial/how-to-make-a-mixin-client/">Mixin Client</Link></li>
+          <li><Link href="/#contact">Contact</Link></li>
         </ul>
       </div>
       <Link href="/"><a  className="btn btn-ghost normal-case text-2xl font-pop text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-400">ddozzi</a></Link>

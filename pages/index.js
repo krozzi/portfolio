@@ -2,16 +2,9 @@ import Head from 'next/head';
 import styles from '../public/css/Cursor.module.css';
 import BlogPost from "../components/BlogPost";
 import getPosts from "../helpers/getPosts";
-// import { getStaticProps } from './blog';
-export const getStaticProps = () => {
-  const posts = getPosts();
+import { DateTime } from 'Luxon';
+import Link from 'next/link';
 
-  return {
-    props: {
-      posts,
-    },
-  };
-};
 export default function Home({posts}) {
   return (
           <div>
@@ -179,7 +172,7 @@ export default function Home({posts}) {
                       ./about/blog
                     </div>
                     <div className="text-lg lg:text-xl font-regular font-spage px-6 lg:px-0 pl-8">
-                      Random posts from a blog i update every 10 years.
+                      Latest posts from a blog i update every 10 years.
                     </div>
                     <div className="pr-12 lg:pb-24 pb-16 pl-8 lg:pl-0">
                       {posts.map((post) => (
@@ -191,7 +184,12 @@ export default function Home({posts}) {
                         slug={post.slug}
                         />
                     ))}
+                    <div className="font-regular font-spage text-xl">
+                ...alternatively, <div className="btn btn-primary btn-sm font-pop"><Link href="/blog">view all blog posts</Link></div>
                 </div>
+                </div>
+                
+                
             </div>
 
             </section>
@@ -202,3 +200,18 @@ export default function Home({posts}) {
   );
   
 }
+
+export const getStaticProps = () => {
+  const posts = getPosts().slice(0,2).sort((a, b) => {
+    const beforeDate = DateTime.fromFormat(a.data.date, 'm-d-yyyy')
+    const afterDate = DateTime.fromFormat(b.data.date, 'm-d-yyyy')
+    return afterDate - beforeDate
+  })
+  return {
+    props: {
+      posts,
+    },
+  };
+};
+
+
