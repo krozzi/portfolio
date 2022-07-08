@@ -11,8 +11,7 @@ export default function Header() {
         <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
           
           <li><Link href="/#aboutme">About me</Link></li>
-          <li><Link href="/#tech">Techstack</Link></li>
-          <li><Link href="/blog">Blog</Link></li>
+          <li><Link href="/#tech">Tech</Link></li>
           <li tabIndex="0">
             <a className="justify-between">
               Tools
@@ -22,6 +21,7 @@ export default function Header() {
             <li><Link href="https://ddozzi.gitbook.io/mixin-tutorial/how-to-make-a-mixin-client/">Mixin Client</Link></li>
             </ul>
           </li>
+          <li><Link href="/blog">Blog</Link></li>
           {/* <li><Link href="/#contact">Contact</Link></li> */}
         </ul>
       </div>
@@ -30,8 +30,7 @@ export default function Header() {
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal p-0">
           <li><Link href="/#aboutme">About me</Link></li>
-          <li><Link href="/#tech">Techstack</Link></li>
-          <li><Link href="/blog">Blog</Link></li>
+          <li><Link href="/#tech">Tech</Link></li>
         <li tabIndex="0">
           <a>
             Tools
@@ -41,6 +40,7 @@ export default function Header() {
             <li><Link href="https://ddozzi.gitbook.io/mixin-tutorial/how-to-make-a-mixin-client/">Mixin Client</Link></li>
           </ul>
         </li>
+        <li><Link href="/blog">Blog</Link></li>
         {/* <li><Link href="/#contact">Contact</Link></li> */}
         
       </ul>
