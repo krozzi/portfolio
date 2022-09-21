@@ -22,12 +22,7 @@ export default function Home({posts}) {
 
 
                     <h1 className="overflow-hidden text-7xl lg:text-9xl font-extrabold font-pop text-blue-500 ">
-                        <span className="relative">
-                        <span className="h-20 pt-2 overflow-x-hidden whitespace-nowrap text-brand-accent leading-3 drop-shadow-xl">
                         ddozzi
-                        </span>
-                        <span className={`${styles.cursor} absolute -bottom-0 left-0 -top-1 inline-block bg-base-200 w-full animate-type will-change`}></span>
-                        </span>
                     </h1>
 
                     <p className="py-8 font-spage text-xl">
